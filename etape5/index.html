@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>TP 4 - Etape 5: Insertion via des champs de saisie</title>
-    <!-- Slide 24: Linking external CSS file -->
+    <!-- Linking external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Slide 48: Form container for input fields -->
+    <!-- Form container for input fields -->
     <div id="form_container">
         <div class="form_group">
             <label class="form_label">Nom:</label>
@@ -21,8 +21,8 @@
         <div class="form_group">
             <label class="form_label">Points:</label>
             <input type="number" id="form_points" class="form_field"/>
-            <!-- Slide 51, 127-135: Button calling doNewData on click -->
-            <button onclick="doNewData()">Ajouter</button>
+            <!-- Button calling doNewData on click -->
+            <button class="btn-add" onclick="doNewData()">Ajouter</button>
         </div>
     </div>
 
@@ -40,19 +40,19 @@
         </table>
     </div>
 
-    <!-- Slide 33: Summary space container below the table -->
+    <!-- Summary space container below the table -->
     <div id="container_summary">
         <p id="p1">0 ligne(s)</p>
         <p id="p2"></p>
         <p id="p3">Total point(s)= 0</p>
     </div>
 
-    <!-- Action buttons (Slide 29, 45) -->
+    <!-- Action buttons -->
     <div style="text-align: center; margin-top: 20px;">
-        <button onclick="consoleTableau()">Console Tableau</button>
+        <button class="btn-consol" onclick="consoleTableau()">Console Tableau</button>
     </div>
 
-    <!-- Slide 24, 26-27: Inclusion of external JavaScript file at the end of body -->
+    <!-- Inclusion of external JavaScript file at the end of body -->
     <script src="script.js"></script>
 </body>
 </html>
