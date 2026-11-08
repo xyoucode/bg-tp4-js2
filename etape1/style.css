@@ -1,0 +1,40 @@
+
+#table_container {
+    font-family: 'Calibri', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th, td {
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+
+.col_number {
+    text-align: center;
+    width: 10%;
+}
+
+.col_text {
+    text-align: left;
+    width: 35%;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 10%;
+}
