@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 4 - Etape 4: Espace Résumé</title>
+    <!-- Slide 24: Linking external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container for the table -->
+    <div id="table_container">
+        <table>
+            <tr>
+                <th class="col_number">N°</th>
+                <th class="col_text">Nom</th>
+                <th class="col_text">Prénom</th>
+                <th class="col_number">Points</th>
+                <th class="col_chkbox">Select</th>
+            </tr>
+            <!-- Rows are dynamically inserted via JavaScript -->
+        </table>
+    </div>
+
+    <!-- Slide 33: Summary space container below the table -->
+    <div id="container_summary">
+        <p id="p1">0 ligne(s)</p>
+        <p id="p2"></p>
+        <p id="p3">Total point(s)= 0</p>
+    </div>
+
+    <!-- Action buttons (Slide 14, 29, 45) -->
+    <div style="text-align: center; margin-top: 20px;">
+        <!-- Slide 45: Calling doInsert with specific data on click -->
+        <button onclick="doInsert('nom', 'prenom', 10)">Ajouter</button>
+        <button onclick="consoleTableau()">Console Tableau</button>
+    </div>
+
+    <!-- Slide 24, 26-27: Inclusion of external JavaScript file at the end of body -->
+    <script src="script.js"></script>
+</body>
+</html>
