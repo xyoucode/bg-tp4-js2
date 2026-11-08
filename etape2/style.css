@@ -1,0 +1,56 @@
+/* Container styling to center the table and set font (Slide 10) */
+#table_container {
+    font-family: 'Calibri', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Table and borders styling */
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th, td {
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Column classes styling */
+.col_number {
+    text-align: center;
+    width: 10%;
+}
+
+.col_text {
+    text-align: left;
+    width: 35%;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 10%;
+}
+
+/* Button styling */
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Calibri', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #219653;
+}
